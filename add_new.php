@@ -61,13 +61,13 @@ if(isset($_POST['submit']))
 
 <div class="col">
         <label style="margin-right: 100%" for="" class="form-label fw-bold">Model</label>
-        <input required type="text" class="form-control shadow bg-white rounded"
+        <input required type="number" class="form-control shadow bg-white rounded"
          name="modal" placeholder="model">
 </div>
 
 <div>
         <label style="margin-right: 100%" for="" class="form-label fw-bold">Price</label>
-        <input required type="text" class="form-control shadow bg-white rounded"
+        <input required type="number" class="form-control shadow bg-white rounded"
          name="price" placeholder="cost">
 </div>
 

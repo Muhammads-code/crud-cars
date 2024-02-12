@@ -61,7 +61,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 
         <td>  
             <a href="edit.php?id=<?php  echo $row['id']  ?>" class="link-dark"><i class="fa-solid fa-pen-to-square fs-5 me-3"></i></a>
-            <a href="delete.php?id=<?php  echo $row['id']  ?>" class="link-dark"><i class="fa-solid fa-trash-can fs-5"></i></a> 
+            <a href="delete.php?id=<?php  echo $row['id']  ?>" class="link-dark"><i class="fa-solid fa-trash-can fs-5"></i></a>
         </td>
       </tr>
 
